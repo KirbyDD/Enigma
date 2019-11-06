@@ -20,7 +20,6 @@ class Decrypt
         result << char
       else
         adjust = char_array.index(char) - shift_array[iter] 
-        # require "pry"; binding.pry
         if adjust > -27
           result << char_array[adjust]
         else
