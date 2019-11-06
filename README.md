@@ -10,4 +10,4 @@ My method to encrypt and decrypt are kind of long even though I broke most of it
 100% Test coverage. No Mock or Stub.
 
 ## Version control => 2. 
-Didn't get to 20 commits but almost all of my commit's only dealt with 1 file or me fixing a type in an additional file
+Almost all of my commit's only dealt with 1 file or me fixing a type in an additional file
