@@ -1,10 +1,10 @@
-require './encryption_module.rb'
+require_relative './encryption_module.rb'
 
 class Encrypt
   include Encryption
-  attr_reader :encryption, :key, :date
+  attr_reader :msg, :key, :date
   def initialize(msg, key, date)
-    @encryption = msg
+    @msg = msg
     @key = key 
     @date = date
   end
@@ -15,7 +15,7 @@ class Encrypt
     char_array = make_char_array
     iter = 0
     result = []
-    @encryption.each_char do |char|
+    @msg.each_char do |char|
       if !char_array.include?(char)
         result << char
       else

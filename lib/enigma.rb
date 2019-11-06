@@ -1,5 +1,5 @@
-require './encrypt.rb'
-require './encryption_module.rb'
+require_relative './encrypt.rb'
+require_relative './encryption_module.rb'
 
 class Enigma
   include Encryption
@@ -11,6 +11,6 @@ class Enigma
 
 end
 
-enigma = Enigma.new
+# enigma = Enigma.new
 
-p enigma.encrypt("hello world!", "02715", "040895")
+# p enigma.encrypt("hello world!", "02715", "040895")
