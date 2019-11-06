@@ -1,6 +1,7 @@
 require "./test/test_helper.rb"
 
-class EncryptTest < Minitest::Test 
+
+class DecryptTest < Minitest::Test 
   def setup
     @decrypt = Decrypt.new("keder ohulw", "02715", "040895")
   end
